@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+
 :root {
   --primary: #00B87B;
   --secondary: #314355;
@@ -168,6 +168,49 @@
 .service-item:hover i {
   background: var(--primary);
   color: var(--light);
+}
+
+/* Navigasi */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Gaya Navigasi */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #313036;
+  padding: 15px 50px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(52, 158, 60);
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #fff;
 }
 
 .portfolio-item .portfolio-btn {
